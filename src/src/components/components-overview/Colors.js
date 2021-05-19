@@ -5,7 +5,7 @@ const Colors = () => (
   <Row className="mb-2">
     <Col lg="12">
       <span style={{ fontSize: "16px" }} className="d-block mb-2 text-muted">
-        <strong>Filters</strong>
+        <strong>Log Filters</strong>
       </span>
     </Col>
 
@@ -13,49 +13,49 @@ const Colors = () => (
       <div
         className="bg-primary text-white text-center rounded p-3 "
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-          Primary
+          Sev 1 Alert
         </div>
     </Col>
     <Col className="mb-4">
       <div
         className="bg-secondary text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Secondary
+        Sev 2 Alert
       </div>
     </Col>
     <Col className="mb-4">
       <div
         className="bg-success text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Success
+        Event
       </div>
     </Col>
     <Col className="mb-4">
       <div
         className="bg-info text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Info
+        Normal
       </div>
     </Col>
     <Col className="mb-4">
       <div
         className="bg-warning text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Warning
+        Suspicious
       </div>
     </Col>
     <Col className="mb-4">
       <div
         className="bg-danger text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Danger
+        Anomaly
       </div>
     </Col>
     <Col className="mb-4">
       <div
         className="bg-dark text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Dark
+        Critical
       </div>
     </Col>
   </Row>

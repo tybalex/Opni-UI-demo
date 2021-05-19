@@ -102,7 +102,7 @@ class UsersOverview extends React.Component {
                 size="sm"
                 className="d-flex btn-white ml-auto mr-auto ml-sm-auto mr-sm-0 mt-3 mt-sm-0"
               >
-                View Full Report &rarr;
+                View Full Report in Log Discovary &rarr;
               </Button>
             </Col>
           </Row>
@@ -138,7 +138,7 @@ UsersOverview.defaultProps = {
     labels: Array.from(new Array(30), (_, i) => (i === 0 ? 1 : i)),
     datasets: [
       {
-        label: "Current Month",
+        label: "Normal Log",
         fill: "start",
         data: [
           500,
@@ -181,7 +181,7 @@ UsersOverview.defaultProps = {
         pointHoverRadius: 3
       },
       {
-        label: "Past Month",
+        label: "Anomaly Log",
         fill: "start",
         data: [
           380,

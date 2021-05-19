@@ -25,54 +25,54 @@ const Tables = () => (
                     #
                   </th>
                   <th scope="col" className="border-0">
-                    First Name
+                    Alert Summary
                   </th>
                   <th scope="col" className="border-0">
-                    Last Name
+                    Time Occurs
                   </th>
                   <th scope="col" className="border-0">
-                    Country
+                    Time Last
                   </th>
                   <th scope="col" className="border-0">
-                    City
+                    Sev Level
                   </th>
                   <th scope="col" className="border-0">
-                    Phone
+                    Trace Logs
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Ali</td>
-                  <td>Kerry</td>
-                  <td>Russian Federation</td>
-                  <td>Gdańsk</td>
-                  <td>107-0339</td>
+                  <td>Summary1</td>
+                  <td>00:00</td>
+                  <td>10 min</td>
+                  <td>Sev 1</td>
+                  <td>Log placeholder1</td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Clark</td>
-                  <td>Angela</td>
-                  <td>Estonia</td>
-                  <td>Borghetto di Vara</td>
-                  <td>1-660-850-1647</td>
+                  <td>Summary2</td>
+                  <td>05:00</td>
+                  <td>1 min</td>
+                  <td>Sev 2</td>
+                  <td>Log placeholder2</td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>Jerry</td>
-                  <td>Nathan</td>
-                  <td>Cyprus</td>
-                  <td>Braunau am Inn</td>
-                  <td>214-4225</td>
+                  <td>Summary3</td>
+                  <td>10:00</td>
+                  <td>10s</td>
+                  <td>Sev 1</td>
+                  <td>Log placeholder3</td>
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>Colt</td>
-                  <td>Angela</td>
-                  <td>Liberia</td>
-                  <td>Bad Hersfeld</td>
-                  <td>1-848-473-7416</td>
+                  <td>Summary4</td>
+                  <td>20:00</td>
+                  <td>5 min</td>
+                  <td>Sev 2</td>
+                  <td>Log placeholder4</td>
                 </tr>
               </tbody>
             </table>
@@ -96,54 +96,33 @@ const Tables = () => (
                     #
                   </th>
                   <th scope="col" className="border-0">
-                    First Name
+                    Solution Activity
                   </th>
                   <th scope="col" className="border-0">
-                    Last Name
-                  </th>
-                  <th scope="col" className="border-0">
-                    Country
-                  </th>
-                  <th scope="col" className="border-0">
-                    City
-                  </th>
-                  <th scope="col" className="border-0">
-                    Phone
+                    Reference Links
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Ali</td>
-                  <td>Kerry</td>
-                  <td>Russian Federation</td>
-                  <td>Gdańsk</td>
-                  <td>107-0339</td>
+                  <td>Solution placeholder1</td>
+                  <a href="https://github.com/kubernetes/kops/issues/5936"><td>github.com/kubernetes/kops/issues/5936</td></a>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>Clark</td>
-                  <td>Angela</td>
-                  <td>Estonia</td>
-                  <td>Borghetto di Vara</td>
-                  <td>1-660-850-1647</td>
+                  <td>Solution placeholder2</td>
+                  <a href="https://github.com/rancher/rke2/issues/1025"><td>github.com/rancher/rke2/issues/1025</td></a>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>Jerry</td>
-                  <td>Nathan</td>
-                  <td>Cyprus</td>
-                  <td>Braunau am Inn</td>
-                  <td>214-4225</td>
+                  <td>Solution placeholder3</td>
+                  <a href="https://stackoverflow.com/questions/3337914/how-can-i-make-a-link-from-a-td-table-cell"><td>www.stackoverflow.com/questions/3337914</td></a>
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>Colt</td>
-                  <td>Angela</td>
-                  <td>Liberia</td>
-                  <td>Bad Hersfeld</td>
-                  <td>1-848-473-7416</td>
+                  <td>Solution placeholder4</td>
+                  <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiY1YGx9dbwAhXDqZ4KHXv-C2QQPAgI"><td>https://www.google.com/search?questions=k8s</td></a>
                 </tr>
               </tbody>
             </table>
