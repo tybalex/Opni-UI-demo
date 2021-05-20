@@ -34,7 +34,7 @@ export default function() {
     {
       title: "QuickStart",
       htmlBefore: '<i class="material-icons">error</i>',
-      to: "/errors",
+      to: "/quickstart",
     },
     {
       title: "More Tabs",
