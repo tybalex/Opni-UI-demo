@@ -9,7 +9,7 @@ const QuickStart = () => (
       <div className="error__content">
         <h2>Opni Demo Quickstart</h2>
         <h3>Launch our demo with sockshop application on a single node cluster</h3>
-        <Button pill>Launch Example</Button>
+        <Button pill>Launch Demo</Button>
         <p>     </p>
         <img src={opnidashboard} alt="Opni Dashboard" width="960" height="540" />
       </div>
