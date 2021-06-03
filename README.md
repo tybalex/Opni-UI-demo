@@ -7,3 +7,5 @@ cd src
 yarn
 yarn start
 ```
+
+a webpage hosted by localhost will hop out automatically for you.
